@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="language" content="russian">
+<title>Radio Аплюс.FM | Фотогалерея</title>
+<link rel="shortcut icon" href="http://rock.aplus.by/templates/rock.aplus.by/images/favicon.ico">
+
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+
+<div class="loaderArea">
+	<div class="loader">
+	<a href="http://radio.aplus.by/" title="Aplus.fm" target="_blank"><img src="img/big_logo.png" alt="Aplus.fm"></a>
+	</div>
+	<div class="loader_2">
+	<div class="spin"></div>
+	</div>
+   <script src="js/preloader.js" type="text/javascript" charset="utf-8"></script>
+</div>
+
+<header>
+<div id="header" class="header Rock_Active">
+<div class="Logo_Chanels">
+<div class="Logo"><a href="http://radio.aplus.by/" title="Aplus.fm" target="_blank"><img class="logo_img" src="img/logo.png" alt="Aplus.fm"></a></div>
+<ul class="ChanelS">
+	<li class="Chanel Rock" id="chanel_set1" onclick="chanel_set(1)">First</li>
+	<li class="Chanel Rock_Active" id="chanel_set2" onclick="chanel_set(2)">Rock</li>
+	<li class="Chanel Rock" id="chanel_set3" onclick="chanel_set(3)">Relax</li>
+	<li class="Chanel Rock" id="chanel_set4" onclick="chanel_set(4)">Deep</li>
+	<li class="Chanel Rock" id="chanel_set5" onclick="chanel_set(5)">Beat</li>
+</ul>
+</div>
+<div class="Player">
+<button id="rad_play_btn" class="play" onclick="first_play()"></button>
+<div class="volume_div">
+<div class="volume_1 Rock_Active lev_1" id="rad_volume1" onclick="return rad_setvolume(1)"></div>
+<div class="volume_1 Rock_Active lev_2" id="rad_volume2" onclick="return rad_setvolume(2)"></div>
+<div class="volume_1 Rock_Active lev_3" id="rad_volume3" onclick="return rad_setvolume(3)"></div>
+<div class="volume_1 Rock_Active lev_4" id="rad_volume4" onclick="return rad_setvolume(4)"></div>
+<div class="volume_1 Rock_Active lev_5" id="rad_volume5" onclick="return rad_setvolume(5)"></div>
+<div class="volume_1 Rock_Active lev_6" id="rad_volume6" onclick="return rad_setvolume(6)"></div>
+</div>
+<div id="radio_text" class="radio_text Rock_Active">
+	<div class="text_slider">
+		<p id="music">Aplus.fm</p>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="js/radio.js" charset="UTF-8"></script>
+</div>
+</header>
+
+<div class="menu">
+<span title="login" onclick="login_div()">login</span>
+<script type="text/javascript" src="js/login_div.js" charset="UTF-8"></script>
+<ul>
+	<li class="shadow"><a href="#" title="Меню">Меню</a>
+		<ul>
+			<li><a href="index.html" title="Главная">Главная</a></li>
+			<li><a href="AboutUs.html" title="О нас">О нас</a></li>
+			<li><a href="Audio.html" title="Аудиотека">Аудиотека</a></li>
+			<li><a href="#" title="Фото">Фото</a></li>
+			<li><a href="http://radio.aplus.by/forum/" title="Форум" target="_blank">Форум</a></li>
+		</ul>
+	</li>
+	<li><a href="index.html" title="Главная">Главная</a></li>
+	<li><a href="AboutUs.html" title="О нас">О нас</a></li>
+	<li><a href="Audio.html" title="Аудиотека">Аудиотека</a></li>
+	<li><a href="#" title="Фото">Фото</a></li>
+	<li><a href="http://radio.aplus.by/forum/" title="Форум" target="_blank">Форум</a></li>
+</ul>
+
+<div id="login_div" class="login_off">
+<div class="login_in">
+<form>
+<fieldset>
+<div class="field">
+<label>Имя:</label>
+<div>
+<input type="text" placeholder="Введите Ваше имя">
+</div></div>
+<div class="field">
+<label>Ваш e-mail:</label>
+<div>
+<input type="email" placeholder="Введите Ваш e-mail">
+</div></div>
+</fieldset>
+</form>
+<button class="send" onclick="login_div()">Войти</button>
+</div>
+</div>
+
+</div>
+
+<div class="content">
+
+	<div class="content_window">
+		<h2>Фотогалерея</h2>
+		<hr>
+		<div id="DD" class="anchor"></div>
+		<h3><a href="News_3.html">3 декабря Дай Дарогу! в клубе RE:PUBLIC</a></h3>
+	<div class="gallery">
+
+<ul>
+<li><a href="img/DD1.jpg" data-fancybox="gallery_1" title="3 декабря Дай Дарогу! в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/DD1.jpg" alt="Дай Дарогу!"></div></a></li>
+<li><a href="img/DD2.jpg" data-fancybox="gallery_1" title="3 декабря Дай Дарогу! в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/DD2.jpg" alt="Дай Дарогу!"></div></a></li>
+<li><a href="img/DD3.jpg" data-fancybox="gallery_1" title="3 декабря Дай Дарогу! в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/DD3.jpg" alt="Дай Дарогу!"></div></a></li>
+<li><a href="img/DD4.jpg" data-fancybox="gallery_1" title="3 декабря Дай Дарогу! в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/DD4.jpg" alt="Дай Дарогу!"></div></a></li>
+<li><a href="img/DD5.jpg" data-fancybox="gallery_1" title="3 декабря Дай Дарогу! в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/DD5.jpg" alt="Дай Дарогу!"></div></a></li>
+<li><a href="img/DD6.jpg" data-fancybox="gallery_1" title="3 декабря Дай Дарогу! в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/DD6.jpg" alt="Дай Дарогу!"></div></a></li>
+</ul>
+	</div>
+<hr>
+
+		<div id="RC" class="anchor"></div>
+		<h3><a href="#">19 ноября. Бар в клубе Rrich cat и Поперечный</a></h3>
+	<div class="gallery">
+
+<ul>
+<li><a href="img/RC1.jpg" data-fancybox="gallery_2" data-caption="<b>19 ноября<br> Бар в клубе Rrich cat и Поперечный</b>" title="19 ноября. Бар в клубе Rrich cat и Поперечный"><div class="image_wrapper photo anim_focus"><img src="img/RC1.jpg" alt="Rrich cat"></div></a></li>
+<li><a href="img/RC2.jpg" data-fancybox="gallery_2" data-caption="<b>19 ноября<br> Бар в клубе Rrich cat и Поперечный</b>" title="19 ноября. Бар в клубе Rrich cat и Поперечный"><div class="image_wrapper photo anim_focus"><img src="img/RC2.jpg" alt="Rrich cat"></div></a></li>
+<li><a href="img/RC3.jpg" data-fancybox="gallery_2" data-caption="<b>19 ноября<br> Бар в клубе Rrich cat и Поперечный</b>" title="19 ноября. Бар в клубе Rrich cat и Поперечный"><div class="image_wrapper photo anim_focus"><img src="img/RC3.jpg" alt="Rrich cat"></div></a></li>
+</ul>
+	</div>
+<hr>
+
+		<div id="BI2" class="anchor"></div>
+		<h3><a href="News_2.html">Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017</a></h3>
+	<div class="gallery">
+
+<ul>
+<li><a href="img/BI21.jpg" data-fancybox="gallery_3" title="Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017"><div class="image_wrapper photo anim_focus"><img src="img/BI21.jpg" alt="БИ-2"></div></a></li>
+<li><a href="img/BI22.jpg" data-fancybox="gallery_3" title="Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017"><div class="image_wrapper photo anim_focus"><img src="img/BI22.jpg" alt="БИ-2"></div></a></li>
+<li><a href="img/BI23.jpg" data-fancybox="gallery_3" title="Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017"><div class="image_wrapper photo anim_focus"><img src="img/BI23.jpg" alt="БИ-2"></div></a></li>
+<li><a href="img/BI24.jpg" data-fancybox="gallery_3" title="Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017"><div class="image_wrapper photo anim_focus"><img src="img/BI24.jpg" alt="БИ-2"></div></a></li>
+<li><a href="img/BI25.jpg" data-fancybox="gallery_3" title="Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017"><div class="image_wrapper photo anim_focus"><img src="img/BI25.jpg" alt="БИ-2"></div></a></li>
+<li><a href="img/BI26.jpg" data-fancybox="gallery_3" title="Это было феерично! БИ-2 отчет о концерте в Минск-Арене 2.04.2017"><div class="image_wrapper photo anim_focus"><img src="img/BI26.jpg" alt="БИ-2"></div></a></li>
+</ul>
+	</div>
+<hr>
+
+		<div id="LB" class="anchor"></div>
+		<h3><a href="News_4.html">5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG</a></h3>
+	<div class="gallery">
+
+<ul>
+<li><a href="img/LB1.jpg" data-fancybox="gallery_4" title="5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG"><div class="image_wrapper photo anim_focus"><img src="img/LB1.jpg" alt="LITTLE BIG"></div></a></li>
+<li><a href="img/LB2.jpg" data-fancybox="gallery_4" title="5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG"><div class="image_wrapper photo anim_focus"><img src="img/LB2.jpg" alt="LITTLE BIG"></div></a></li>
+<li><a href="img/LB3.jpg" data-fancybox="gallery_4" title="5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG"><div class="image_wrapper photo anim_focus"><img src="img/LB3.jpg" alt="LITTLE BIG"></div></a></li>
+<li><a href="img/LB4.jpg" data-fancybox="gallery_4" title="5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG"><div class="image_wrapper photo anim_focus"><img src="img/LB4.jpg" alt="LITTLE BIG"></div></a></li>
+<li><a href="img/LB5.jpg" data-fancybox="gallery_4" title="5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG"><div class="image_wrapper photo anim_focus"><img src="img/LB5.jpg" alt="LITTLE BIG"></div></a></li>
+<li><a href="img/LB6.jpg" data-fancybox="gallery_4" title="5 ноября в клубе RE:PUBLIC выступила группа LITTLE BIG"><div class="image_wrapper photo anim_focus"><img src="img/LB6.jpg" alt="LITTLE BIG"></div></a></li>
+</ul>
+	</div>
+<hr>
+
+		<div id="AM" class="anchor"></div>
+		<h3><a href="News_5.html">AMATORY выступили 30 октября в клубе RE:PUBLIC</a></h3>
+	<div class="gallery">
+
+<ul>
+<li><a href="img/AM1.jpg" data-fancybox="gallery_5" title="AMATORY выступили 30 октября в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/AM1.jpg" alt="AMATORY"></div></a></li>
+<li><a href="img/AM2.jpg" data-fancybox="gallery_5" title="AMATORY выступили 30 октября в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/AM2.jpg" alt="AMATORY"></div></a></li>
+<li><a href="img/AM3.jpg" data-fancybox="gallery_5" title="AMATORY выступили 30 октября в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/AM3.jpg" alt="AMATORY"></div></a></li>
+<li><a href="img/AM4.jpg" data-fancybox="gallery_5" title="AMATORY выступили 30 октября в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/AM4.jpg" alt="AMATORY"></div></a></li>
+<li><a href="img/AM5.jpg" data-fancybox="gallery_5" title="AMATORY выступили 30 октября в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/AM5.jpg" alt="AMATORY"></div></a></li>
+<li><a href="img/AM6.jpg" data-fancybox="gallery_5" title="AMATORY выступили 30 октября в клубе RE:PUBLIC"><div class="image_wrapper photo anim_focus"><img src="img/AM6.jpg" alt="AMATORY"></div></a></li>
+</ul>
+	</div>
+<hr>
+
+</div>
+<div class="cleaner"></div>
+
+<div class="footer">
+	Copyright © 2017 <a href="#">Bazil_BeatleSoul</a>
+</div>
+
+</div>
+
+<script src="js/jquery.fancybox.min.js"></script>
+
+</body>
+</html>
